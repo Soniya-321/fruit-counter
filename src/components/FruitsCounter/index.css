@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffd569;
+  background-size: cover;
+}
+.card-container {
+  background-color: #ffffff;
+  margin: 20px 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #000000;
+  font-family: roboto;
+  font-size: 30px;
+}
+.counter {
+  color: #ffd569;
+  font-family: roboto;
+  font-size: 30px;
+}
+.img {
+  height: 180px;
+  width: 180px;
+  margin: 5px;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.fruit-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+}
